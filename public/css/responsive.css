@@ -1,0 +1,19 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {position: absolute;right: 0;left: unset;}
+}
+
+@media (max-width:992px) {
+    .sidebar {display:none;}
+    #filters.mobile {display:block;}
+}
+
+@media (max-width:568px) {
+    .navbar {align-items: baseline;}
+    .navbar-dark .navbar-brand img {max-width:160px;}
+    .navbar-dark .navbar-nav .nav-link {text-align: right;}
+
+
+    .single-page .section-title {text-align: center;}
+    .single-page ul.details {padding:0;text-align: center;}
+    .single-page .delivery-value {padding:0;text-align: center;}
+}

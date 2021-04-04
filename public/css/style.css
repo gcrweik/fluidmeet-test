@@ -1,0 +1,40 @@
+/* GENERAL */
+* {outline: none;font-family: 'Roboto', sans-serif;}
+
+/* HEADER */
+.navbar-dark .navbar-brand img {max-width:200px;}
+.dropdown-item {text-align: center;}
+.dropdown-menu {left:unset;right:0}
+
+/* LISTING */
+.container.full-body {min-height: 90vh }
+.sidebar {background: #343a40b3;padding: 20px;border-radius: 5px;}
+.sidebar .widget {border-bottom: 1px solid rgba(255,255,255,.5);}
+.sidebar .widget h4 {color:#fff;font-size:24px;margin-bottom: 20px;}
+.sidebar .widget ul {list-style-type: none;padding:0;}
+.sidebar .widget ul a {font-size:20px;color:#fff;transition: .2s all ease-in-out;}
+.sidebar .widget ul a:hover, .sidebar .widget ul a.current {font-size:20px;color:#fff;transition: .2s all ease-in-out;margin-left: 10px;outline:none;text-decoration: none;}
+#filters.mobile {display:none;padding: 0;list-style: none;text-align: center;}
+#filters.mobile li {display: inline-block;vertical-align: middle;margin:0 10px;}
+#filters.mobile li a {font-size:16px;color:#343a40;transition: .2s all ease-in-out;}
+#filters.mobile li a.current {text-decoration: underline;}
+.pharm-item .box {border-radius: 5px;text-align:center;padding:20px;-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);}
+.pharm-item .box figure {overflow:hidden;background: #000;min-height: 250px;display: flex;align-items: center;justify-content: center;}
+.pharm-item .box figure img {width: 70%;transition:.4s all ease-in-out;}
+.pharm-item .box figure:hover img {transform:scale(1.2);width: 70%;transition:.4s all ease-in-out;}
+
+/* SINGLE PHARMACY */
+.single-page {overflow-x: hidden;}
+.single-page .page-header {padding:100px 0;text-align: center;}
+.single-page .page-header h2 {color:#fff;}
+.single-page .swiper-slide {overflow: hidden;}
+.single-page .swiper-slide img {width:100%;object-fit: cover;}
+.single-page .section-title {font-weight: bold;}
+.single-page ul.details {list-style-type: none;padding-left: 20px;}
+.single-page ul.details .label {font-weight: bold;}
+.single-page .delivery-value {display: inline-block;vertical-align: middle;padding-left: 20px;font-weight:bold;}
+.single-page .delivery-value img {width:20px;height:20px;}
+
+/* FOOTER */
+footer {padding: 15px 10px;text-align: center;color: #fff;}
+footer p {margin:0;}
